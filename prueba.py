@@ -1,7 +1,7 @@
 def menu():
     print("Prueba Programacion Avanzada")
-    opcion = int(0)
-    while(opcion >=0 or opcion <4):
+    opcion = int(1)
+    while(opcion >=1 or opcion <4):
     	print("1. Coordenadas de un punto")
     	print("2. Promedio de n numeros")
     	print("3. Palindromo")
@@ -12,6 +12,7 @@ def menu():
 	    	promedio()
 	    if(opcion == 3):
 	    	palindromo()
+	    opcion = int(input("elija una opcion"))
 
 def suma():
     x1 = int(input("Ingrese el valor de x1: "))
@@ -41,7 +42,5 @@ def promedio()
 				s = 0
 			resultado = suma / contador
 		print ("EL promedio es: " + str(resultado))
-
-
 
 menu()
