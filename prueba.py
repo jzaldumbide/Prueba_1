@@ -1,5 +1,17 @@
 def menu():
     print("Prueba Programacion Avanzada")
+    opcion = int(0)
+    while(opcion >=0 or opcion <4):
+    	print("1. Coordenadas de un punto")
+    	print("2. Promedio de n numeros")
+    	print("3. Palindromo")
+    	print("4. Salir")
+    	if(opcion == 1):
+    		suma()
+    	if(opcion == 2):
+	    	promedio()
+	    if(opcion == 3):
+	    	palindromo()
 
 def suma():
     x1 = int(input("Ingrese el valor de x1: "))
@@ -16,7 +28,7 @@ def suma():
     print("y: " + str(coor2))
     print("z: " + str(coor3))
 
-def ejercicio2()
+def promedio()
 	s= int(1)
 	contador= int(0)
 	suma= int(0)
@@ -33,5 +45,3 @@ def ejercicio2()
 
 
 menu()
-
-suma()
