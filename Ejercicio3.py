@@ -1,5 +1,5 @@
 def leertxt():
-    archi=open('e2.txt','r')
+    archi=open('texto.txt','r')
     linea=archi.readline()
     while linea!="":
         print (linea)
@@ -13,4 +13,3 @@ def leertxt():
     print (nlinea)
 
 leertxt()
-print(len(frase))
