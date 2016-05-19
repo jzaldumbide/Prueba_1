@@ -14,4 +14,10 @@ def suma():
     coor1 = x1 + x2
     coor2 = y1 + y2
     coor3 = z1 + z2
+    print ("las coordenadas del punto son: ")
+    print("x: " + str(coor1))
+    print("y: " + str(coor2))
+    print("z: " + str(coor3))
+
 menu()
+suma()
