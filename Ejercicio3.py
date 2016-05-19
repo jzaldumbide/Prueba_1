@@ -10,8 +10,9 @@ def leertxt():
     while linea!="":
         print (linea)
         linea=archi.readline()
-        frase=list(str(linea))
-        print(reverse (str(frase)))
+        frase=linea.splitline()
+        #frase= frase.split()
+        print(frase)
         archi.close()
         print (linea)
     archi.close()
