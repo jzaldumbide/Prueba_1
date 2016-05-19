@@ -8,6 +8,7 @@ while(s==1):
 	contador=contador+1
 	if (r==0):
 		s=0
+contador=contador-1
 resultado= suma/contador
 print (" EL promedio es: "+str(resultado))
 
